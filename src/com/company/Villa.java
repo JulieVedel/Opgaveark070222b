@@ -10,7 +10,8 @@ public class Villa extends Ejendom{
 
     @Override
     public void prisPrKvm() {
+        System.out.println("Villa:");
         double prisPrKvm = pris/beboelsesareal;
-        System.out.println("Pris pr kvadratmeter: " + prisPrKvm);
+        System.out.println("Pris pr kvadratmeter: " + prisPrKvm + "\n");
     }
 }

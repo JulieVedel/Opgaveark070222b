@@ -9,5 +9,7 @@ public abstract class Ejendom {
         this.pris = pris;
     }
 
-    public abstract void prisPrKvm();
+    public void prisPrKvm(){
+
+    }
 }

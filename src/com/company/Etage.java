@@ -10,7 +10,8 @@ public class Etage extends Butik{
 
     @Override
     public void prisPrKvm() {
+        System.out.println("Etage:");
         double prisPrKvm = pris/(beboelsesareal + butiksareal)/antalEtager;
-        System.out.println("Pris pr kvadratmeter: " + prisPrKvm);
+        System.out.println("Pris pr kvadratmeter: " + prisPrKvm + "\n");
     }
 }

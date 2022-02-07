@@ -10,7 +10,8 @@ public class Butik extends Ejendom{
 
     @Override
     public void prisPrKvm() {
+        System.out.println("Butik:");
         double prisPrKvm = pris/(beboelsesareal + butiksareal);
-        System.out.println("Pris pr kvadratmeter: " + prisPrKvm);
+        System.out.println("Pris pr kvadratmeter: " + prisPrKvm + "\n");
     }
 }
